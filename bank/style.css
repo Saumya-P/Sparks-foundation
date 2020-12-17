@@ -1,0 +1,178 @@
+.navbar{
+  margin: 0;
+  border-radius:0px;
+  z-index: 100;
+  height: 120px;
+ background-color:#0D4F8B;
+}
+
+.navbar-brand{
+  padding: 10px;
+}
+
+.navbar-brand>img {
+  height: 100px;
+  width: 120px;
+}
+
+nav ul.navbar-nav li a{
+  color: white !important;
+}
+  
+nav ul.navbar-nav li a:hover{
+  border-bottom: 3px solid #ffffff;
+}
+
+.navbar-collapse{
+  margin-right: 75px;
+}
+
+section{
+  height: 720px;
+}
+.main-home{
+  background: url('img/home6.png');
+  background-size: contain;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 30px 40px;
+}
+
+.btn-default{
+  background-color: #FFC0CB !important;
+  color: #000000;
+  font-weight: bold;
+
+}
+
+.intro{
+  position: relative;
+  margin: 150px 50px auto 150px;
+  width: 500px;
+  text-align: center;
+}
+
+ .intro> h1{
+  text-align: center;
+  color: #ffffff;
+  font-size: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+.intro>p{
+  font-size: 20px;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact1{
+  position: relative;
+  margin: 150px 500px;
+  text-align: center;
+}
+
+.about{
+  display: grid;
+  place-items: center;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo{
+  position: relative;
+  left: 10%;
+}
+
+.logo, .about-text {
+  flex: 1 1 150px;
+  margin: 5px;
+}
+
+.about-text{
+  margin-top: -5% !important;
+}
+
+.careers{
+  display: grid;
+  position: relative;
+  margin: 0;
+  padding: 30px 40px;
+  height: 675px;
+}
+
+.careers::before{
+  content: "";
+  background-image: url('images/careers.jpeg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.30;
+}
+
+.career-info{
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  padding: 20px 20px;
+  text-align: center;
+  width: fit-content;
+  height: 100px;
+  background-color: #a9c7c7;
+}
+
+ .contact1> h2, .about-text> h2, .careers>h2{
+  text-align: center;
+  color: #343a40;
+  font-size: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .contact2{
+  position: relative;
+  left: 30%;
+  top: -13%;
+  text-align: center;
+  font-size: 20px;
+  color: #343a40;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.col-md-12{
+  margin: auto;
+  margin-top: 100px !important;
+  text-align: center;
+}
+
+.direct{
+  position: relative;
+  margin: 150px 50px auto 110px;
+  width: 500px;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.direct ul{
+  padding: 10px;
+
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 7px;
+  background-color:#0D4F8B; 
+  
+  text-align: center;
+  z-index: 100;
+}
